@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!-- xslplanes.2.xml -->
+<?xml-stylesheet type = "text/xsl" href = "xslplanes.2.xsl" ?>
+<planes>
+   <plane>
+      <foo> one </foo>
+      <year> 1977 </year>
+      <make> Cessna </make>
+      <model> Skyhawk </model>
+      <color> Light blue and white </color>
+   </plane>
+   <plane>
+      <foo> two </foo>
+      <year> 1975 </year>
+      <make> Piper </make>
+      <model> Apache </model>
+      <color> White </color>
+   </plane>   
+   <plane>
+      <foo> three </foo>      
+      <year> 1960 </year>
+      <make> Cessna </make>
+      <model> Centurian </model>
+      <color> Yellow and white </color>
+   </plane>
+   <plane>
+      <foo> four </foo>
+      <year> 1956 </year>
+      <make> Piper </make>
+      <model> Tripacer </model>
+      <color> Blue </color>
+   </plane>
+   <plane>
+      <foo> one </foo>
+      <year> 1977_2 </year>
+      <make> Cessna_2 </make>
+      <model> Skyhawk_2 </model>
+      <color> Light blue and white_2 </color>
+   </plane>
+   <plane>
+      <foo> two </foo>
+      <year> 1975_2 </year>
+      <make> Piper_2 </make>
+      <model> Apache_2 </model>
+      <color> White_2 </color>
+   </plane>   
+   <plane>
+      <foo> three </foo>      
+      <year> 1960_2 </year>
+      <make> Cessna_2 </make>
+      <model> Centurian_2 </model>
+      <color> Yellow and white_2 </color>
+   </plane>
+   <plane>
+      <foo> four </foo>
+      <year> 1956_2 </year>
+      <make> Piper_2 </make>
+      <model> Tripacer_2 </model>
+      <color> Blue_2 </color>
+   </plane>
+</planes>
