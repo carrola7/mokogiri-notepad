@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "nokogiri-notepad"
-  s.version = "0.0.0"
+  s.version = "0.0.1"
   s.date = "2019-02-11"
   s.summary = "XML Node extractor"
   s.description = "Gem for extracting info from xml files according to paths defined in Notepad++"
