@@ -6,6 +6,6 @@ Gem::Specification.new do |s|
   s.description = "Gem for extracting info from xml files according to paths defined in Notepad++"
   s.authors = ['Adrian Carroll']
   s.email = 'adrian.carroll7@gmail.com'
-  s.files = ['lib/*']
+  s.files = Dir['Gemfile', 'MIT-LICENSE', 'README.md', 'Rakefile', 'lib/**/*', 'test/**/*']
   s.homepage = 'http://github.com/carrola7/nokogiri-notepad'
 end

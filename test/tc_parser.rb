@@ -6,7 +6,6 @@ class BasicTest < Minitest::Test
     @file_path2 = "#{File.dirname(__FILE__)}/test_files/xslplanes.2.xml"
     @file_path3 = "#{File.dirname(__FILE__)}/test_files/xslplanes.3.xml"
     @file_path4 = "#{File.dirname(__FILE__)}/test_files/xslplanes.1.xmx"
-    @long_file_path = "#{File.dirname(__FILE__)}/test_files/xslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanesxslplanes.xml"
 
     @single_targets = { "year" => ["/plane/year"], "make" => ["/plane/make"] }
     @single_targets2 = { "color" => ["/planes/plane/foo", "four", "color"], "model" => ["/planes/plane/foo", "two", "model"] }
@@ -50,12 +49,6 @@ class BasicTest < Minitest::Test
   def test_initializing_with_invalid_multiple_targets_raises_error
     assert_raises NokogiriNotepad::InvalidDataTypeForTargets do
       NokogiriNotepad::Parser.new(@file_path, @single_targets, "foo")
-    end
-  end
-
-  def test_initializing_with_long_file_path_raises_error
-    assert_raises NokogiriNotepad::InvalidFileName do
-      NokogiriNotepad::Parser.new(@long_file_path, @single_targets, @multiple_targets)
     end
   end
 
